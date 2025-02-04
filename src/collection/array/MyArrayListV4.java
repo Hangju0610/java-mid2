@@ -9,6 +9,10 @@ public class MyArrayListV4<E> {
     private int size = 0;
 
     public MyArrayListV4() {
+        /*
+        제네릭은 런타임에 이레이저에 의해 타입정보가 사라지기 때문에 타입 정보가 필요한 생성자에 사용할 수 없다는 단점 존재.
+        따라서 Object로 넣을 수 밖에 없다.
+        */
         elementData = new Object[DEFAULT_CAPACITY];
     }
 
