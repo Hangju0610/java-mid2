@@ -38,6 +38,8 @@ public class MyArrayListV4<E> {
             grow();
         }
         shiftRightFrom(index);
+        elementData[index] = e;
+        size++;
     }
 
     // 코드 추가, 요소의 마지막부터 index까지 오른쪽으로 밀기
