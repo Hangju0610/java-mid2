@@ -2,7 +2,7 @@ package collection.set;
 
 import java.util.Arrays;
 
-public class hashStart4 {
+public class HashStart4 {
 
     static final int CAPACITY = 10;
 
